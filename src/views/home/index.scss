@@ -1,0 +1,36 @@
+.container {
+  height: 100%;
+
+  .header {
+    padding-left: 10px;
+    background-color: #373f41;
+
+    .logo-wrap {
+      height: 60px;
+      display: flex;
+      align-items: center;
+      color: white;
+
+      .logo {
+        width: 40px;
+      }
+    }
+
+    .middle {
+      text-align: center;
+      color: white;
+    }
+
+    .loginout {
+      margin-top: 10px;
+    }
+  }
+
+  .aside {
+    background-color: #333744;
+  }
+
+  .main {
+    background-color: #eaedf1;
+  }
+}
